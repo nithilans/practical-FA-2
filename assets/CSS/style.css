@@ -1,0 +1,61 @@
+*{
+    margin: 35PX;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Barlow;
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.order h3 nav a{
+    color: black;
+    text-decoration: none;
+     border-radius: 20px;
+     padding: 30px;
+     border: 30px;
+    
+}
+.order h3 nav{
+    width: 60px;
+     height: 20px;
+
+}
+.start{
+    display: flex;
+    justify-content:space-between;
+}
+.pic{
+    display: flex;
+    justify-content: space-between;
+}
+.phone img{
+    border-radius: 10px;
+}
+.glass img{
+    border-radius:10px ;
+}
+.key img{
+    border-radius: 10px;
+    
+}
+.button h3 a{
+    border-radius: 50px;
+    background-color:  hsl(22, 100%, 69%);
+    width: 20px;
+    height: 5px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.footer img{
+    background-color: hsl(22, 100%, 69%) ;
+    padding: 10px;
+    border-radius: 10px;
+}
+.phone img{
+    filter: invert(60%) sepia(43%) saturate(400%) hue-rotate(340deg) brightness(102%) contrast(120%);
+}
